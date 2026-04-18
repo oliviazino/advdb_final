@@ -49,7 +49,7 @@ const Navigation = () => {
     return (
         // pass data down to NavigationView
         <NavigationView
-        pages={['Home', 'Explore', 'Contact', 'Manage', 'About']}
+        pages={['Home', 'Your Trip', 'Check Tickets']}
         settings={['Login', 'Logout']}
         anchorElNav={anchorElNav}
         anchorElUser={anchorElUser}

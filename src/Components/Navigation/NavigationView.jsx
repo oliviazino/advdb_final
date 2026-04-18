@@ -5,7 +5,7 @@ import {
   Container, Avatar, Button, Tooltip, MenuItem
 } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu'
-import logo from '../../assets/nd_logo.png'
+import logo from '../../assets/amtrak_short.png'
 
 const NavigationView = ({
     pages,
@@ -25,9 +25,9 @@ const NavigationView = ({
         <Container maxWidth="xl">
         <Toolbar disableGutters>
             {/* Desktop Logo */}
-            <Box component="img" sx={{ height: 35, display: { xs: 'none', md: 'flex' }, mr: 2 }} src={logo} alt="Notre Dame Logo" />
+            <Box component="img" sx={{ height: 35, display: { xs: 'none', md: 'flex' }, mr: 2 }} src={logo} alt="Amtrak Logo" />
             <Typography variant="h6" noWrap sx={{ mr: 2, display: { xs: 'none', md: 'flex' }, letterSpacing: '.3rem', color: 'secondary.main', fontWeight: 700, textDecoration: 'none' }}>
-            UNIVERSITY OF NOTRE DAME
+            AMTRAK TRAIN SERVICES
             </Typography>
 
             {/* Mobile Hamburger Menu */}
