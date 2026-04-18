@@ -1,6 +1,6 @@
 /* Home Page - Routed Container Component */
-import NewEvents from './NewEvents.jsx'
-import { Box, Container, Typography, Paper, Divider, Grow } from '@mui/material'
+import TrainMap from '../TrainMap/TrainMap.jsx'
+import {Container, Typography, Paper, Grow } from '@mui/material'
 
 function Home() {
     // display home page using MUI components
@@ -20,12 +20,12 @@ function Home() {
             <Grow in={true} timeout={500}>
             <Paper sx={{ backgroundColor: 'white', padding: 2, marginTop: 2 }}>
                 <Typography variant="h3" color="primary.main">
-                        Stay up-to-date with the newest events below:
+                        Currently Traveling:
                     </Typography>
             </Paper>
             </Grow>
             {/* display newest events */}
-            <NewEvents/>
+            <TrainMap />
         </Container>
     )
 }

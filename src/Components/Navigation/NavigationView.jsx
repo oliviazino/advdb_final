@@ -49,7 +49,7 @@ const NavigationView = ({
 
             {/* Mobile Logo */}
             <Box sx={{ display: { xs: 'flex', md: 'none' }, justifyContent: 'center', alignItems: 'center', width: '100%' }}>
-            <Box component="img" sx={{ height: 35, mr: 1 }} src={logo} alt="Notre Dame Logo" />
+            <Box component="img" sx={{ height: 35, mr: 1 }} src={logo} alt="Logo" />
             </Box>
 
             {/* Desktop Navigation */}

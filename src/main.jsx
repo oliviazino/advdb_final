@@ -6,14 +6,14 @@ import { createTheme, ThemeProvider, CssBaseline } from '@mui/material'
 const theme = createTheme({
     palette: {
         primary: {
-            light: "#a6b8a5",
-            main: "#536953",
-            dark: "#304030"
-        },
-        secondary: {
-            light: "#365c8f",
+           light: "#365c8f",
             main: "#183a69",
             dark: "#001f49"
+        },
+        secondary: {
+            light: "#533ef5",
+            main: "#7c92c1",
+            dark: "#0c0438"
         },
         info: {
             light: "#f9f4ed",

@@ -1,0 +1,633 @@
+[
+  {
+    "route_name": "Pennsylvanian",
+    "train_number": 42,
+    "id": 1490743,
+    "departure_date": "2026-04-18T07:30:00-04:00",
+    "last_update": "2026-04-18T13:58:31-04:00",
+    "stations": {
+      "PGH": {
+        "code": "PGH",
+        "tz": "America/New_York",
+        "arrived": false,
+        "departed": true,
+        "scheduled": {
+          "arrival": null,
+          "departure": "2026-04-18T07:30:00-04:00",
+          "comment": "",
+          "pretty_comment": "",
+          "status": 0
+        },
+        "estimated": {
+          "arrival": null,
+          "departure": null,
+          "arrival_comment": null,
+          "departure_comment": null,
+          "pretty_arrival_comment": "",
+          "pretty_departure_comment": "",
+          "status": 0
+        },
+        "actual": {
+          "arrival": null,
+          "departure": "2026-04-18T07:30:00-04:00",
+          "comment": "ON TIME",
+          "pretty_comment": "",
+          "status": 0
+        }
+      },
+      "GNB": {
+        "code": "GNB",
+        "tz": "America/New_York",
+        "arrived": true,
+        "departed": true,
+        "scheduled": {
+          "arrival": "2026-04-18T08:09:00-04:00",
+          "departure": "2026-04-18T08:11:00-04:00",
+          "comment": "",
+          "pretty_comment": "",
+          "status": 0
+        },
+        "estimated": {
+          "arrival": null,
+          "departure": null,
+          "arrival_comment": null,
+          "departure_comment": null,
+          "pretty_arrival_comment": "",
+          "pretty_departure_comment": "",
+          "status": 0
+        },
+        "actual": {
+          "arrival": "2026-04-18T08:09:00-04:00",
+          "departure": "2026-04-18T08:11:00-04:00",
+          "comment": "ON TIME",
+          "pretty_comment": "",
+          "status": 0
+        }
+      },
+      "LAB": {
+        "code": "LAB",
+        "tz": "America/New_York",
+        "arrived": true,
+        "departed": true,
+        "scheduled": {
+          "arrival": "2026-04-18T08:20:00-04:00",
+          "departure": "2026-04-18T08:21:00-04:00",
+          "comment": "",
+          "pretty_comment": "",
+          "status": 0
+        },
+        "estimated": {
+          "arrival": null,
+          "departure": null,
+          "arrival_comment": null,
+          "departure_comment": null,
+          "pretty_arrival_comment": "",
+          "pretty_departure_comment": "",
+          "status": 0
+        },
+        "actual": {
+          "arrival": "2026-04-18T08:21:00-04:00",
+          "departure": "2026-04-18T08:22:00-04:00",
+          "comment": "1 MI LATE",
+          "pretty_comment": "00:01 late",
+          "status": -1
+        }
+      },
+      "JST": {
+        "code": "JST",
+        "tz": "America/New_York",
+        "arrived": true,
+        "departed": true,
+        "scheduled": {
+          "arrival": "2026-04-18T09:02:00-04:00",
+          "departure": "2026-04-18T09:05:00-04:00",
+          "comment": "",
+          "pretty_comment": "",
+          "status": 0
+        },
+        "estimated": {
+          "arrival": null,
+          "departure": null,
+          "arrival_comment": null,
+          "departure_comment": null,
+          "pretty_arrival_comment": "",
+          "pretty_departure_comment": "",
+          "status": 0
+        },
+        "actual": {
+          "arrival": "2026-04-18T09:04:00-04:00",
+          "departure": "2026-04-18T09:08:00-04:00",
+          "comment": "3 MI LATE",
+          "pretty_comment": "00:03 late",
+          "status": -1
+        }
+      },
+      "ALT": {
+        "code": "ALT",
+        "tz": "America/New_York",
+        "arrived": true,
+        "departed": true,
+        "scheduled": {
+          "arrival": "2026-04-18T09:59:00-04:00",
+          "departure": "2026-04-18T10:03:00-04:00",
+          "comment": "",
+          "pretty_comment": "",
+          "status": 0
+        },
+        "estimated": {
+          "arrival": null,
+          "departure": null,
+          "arrival_comment": null,
+          "departure_comment": null,
+          "pretty_arrival_comment": "",
+          "pretty_departure_comment": "",
+          "status": 0
+        },
+        "actual": {
+          "arrival": "2026-04-18T10:03:00-04:00",
+          "departure": "2026-04-18T10:07:00-04:00",
+          "comment": "4 MI LATE",
+          "pretty_comment": "00:04 late",
+          "status": -1
+        }
+      },
+      "TYR": {
+        "code": "TYR",
+        "tz": "America/New_York",
+        "arrived": true,
+        "departed": true,
+        "scheduled": {
+          "arrival": "2026-04-18T10:19:00-04:00",
+          "departure": "2026-04-18T10:21:00-04:00",
+          "comment": "",
+          "pretty_comment": "",
+          "status": 0
+        },
+        "estimated": {
+          "arrival": null,
+          "departure": null,
+          "arrival_comment": null,
+          "departure_comment": null,
+          "pretty_arrival_comment": "",
+          "pretty_departure_comment": "",
+          "status": 0
+        },
+        "actual": {
+          "arrival": "2026-04-18T10:23:00-04:00",
+          "departure": "2026-04-18T10:24:00-04:00",
+          "comment": "3 MI LATE",
+          "pretty_comment": "00:03 late",
+          "status": -1
+        }
+      },
+      "HGD": {
+        "code": "HGD",
+        "tz": "America/New_York",
+        "arrived": true,
+        "departed": true,
+        "scheduled": {
+          "arrival": "2026-04-18T10:46:00-04:00",
+          "departure": "2026-04-18T10:48:00-04:00",
+          "comment": "",
+          "pretty_comment": "",
+          "status": 0
+        },
+        "estimated": {
+          "arrival": null,
+          "departure": null,
+          "arrival_comment": null,
+          "departure_comment": null,
+          "pretty_arrival_comment": "",
+          "pretty_departure_comment": "",
+          "status": 0
+        },
+        "actual": {
+          "arrival": "2026-04-18T10:52:00-04:00",
+          "departure": "2026-04-18T10:52:00-04:00",
+          "comment": "4 MI LATE",
+          "pretty_comment": "00:04 late",
+          "status": -1
+        }
+      },
+      "LEW": {
+        "code": "LEW",
+        "tz": "America/New_York",
+        "arrived": true,
+        "departed": true,
+        "scheduled": {
+          "arrival": "2026-04-18T11:26:00-04:00",
+          "departure": "2026-04-18T11:28:00-04:00",
+          "comment": "",
+          "pretty_comment": "",
+          "status": 0
+        },
+        "estimated": {
+          "arrival": null,
+          "departure": null,
+          "arrival_comment": null,
+          "departure_comment": null,
+          "pretty_arrival_comment": "",
+          "pretty_departure_comment": "",
+          "status": 0
+        },
+        "actual": {
+          "arrival": "2026-04-18T11:29:00-04:00",
+          "departure": "2026-04-18T11:31:00-04:00",
+          "comment": "3 MI LATE",
+          "pretty_comment": "00:03 late",
+          "status": -1
+        }
+      },
+      "HAR": {
+        "code": "HAR",
+        "tz": "America/New_York",
+        "arrived": true,
+        "departed": true,
+        "scheduled": {
+          "arrival": "2026-04-18T12:55:00-04:00",
+          "departure": "2026-04-18T13:05:00-04:00",
+          "comment": "",
+          "pretty_comment": "",
+          "status": 0
+        },
+        "estimated": {
+          "arrival": null,
+          "departure": null,
+          "arrival_comment": null,
+          "departure_comment": null,
+          "pretty_arrival_comment": "",
+          "pretty_departure_comment": "",
+          "status": 0
+        },
+        "actual": {
+          "arrival": "2026-04-18T12:44:00-04:00",
+          "departure": "2026-04-18T13:05:00-04:00",
+          "comment": "ON TIME",
+          "pretty_comment": "",
+          "status": 0
+        }
+      },
+      "ELT": {
+        "code": "ELT",
+        "tz": "America/New_York",
+        "arrived": true,
+        "departed": true,
+        "scheduled": {
+          "arrival": "2026-04-18T13:22:00-04:00",
+          "departure": "2026-04-18T13:23:00-04:00",
+          "comment": "",
+          "pretty_comment": "",
+          "status": 0
+        },
+        "estimated": {
+          "arrival": null,
+          "departure": null,
+          "arrival_comment": null,
+          "departure_comment": null,
+          "pretty_arrival_comment": "",
+          "pretty_departure_comment": "",
+          "status": 0
+        },
+        "actual": {
+          "arrival": "2026-04-18T13:20:00-04:00",
+          "departure": "2026-04-18T13:23:00-04:00",
+          "comment": "ON TIME",
+          "pretty_comment": "",
+          "status": 0
+        }
+      },
+      "LNC": {
+        "code": "LNC",
+        "tz": "America/New_York",
+        "arrived": true,
+        "departed": true,
+        "scheduled": {
+          "arrival": "2026-04-18T13:41:00-04:00",
+          "departure": "2026-04-18T13:45:00-04:00",
+          "comment": "",
+          "pretty_comment": "",
+          "status": 0
+        },
+        "estimated": {
+          "arrival": null,
+          "departure": null,
+          "arrival_comment": null,
+          "departure_comment": null,
+          "pretty_arrival_comment": "",
+          "pretty_departure_comment": "",
+          "status": 0
+        },
+        "actual": {
+          "arrival": "2026-04-18T13:38:00-04:00",
+          "departure": "2026-04-18T13:45:00-04:00",
+          "comment": "ON TIME",
+          "pretty_comment": "",
+          "status": 0
+        }
+      },
+      "EXT": {
+        "code": "EXT",
+        "tz": "America/New_York",
+        "arrived": false,
+        "departed": false,
+        "scheduled": {
+          "arrival": "2026-04-18T14:16:00-04:00",
+          "departure": "2026-04-18T14:17:00-04:00",
+          "comment": "",
+          "pretty_comment": "",
+          "status": 0
+        },
+        "estimated": {
+          "arrival": "2026-04-18T14:21:00-04:00",
+          "departure": "2026-04-18T14:22:00-04:00",
+          "arrival_comment": "05 MI LATE",
+          "departure_comment": "05 MI LATE",
+          "pretty_arrival_comment": "00:05 late",
+          "pretty_departure_comment": "00:05 late",
+          "status": -2
+        },
+        "actual": {
+          "arrival": null,
+          "departure": null,
+          "comment": null,
+          "pretty_comment": "",
+          "status": 0
+        }
+      },
+      "PAO": {
+        "code": "PAO",
+        "tz": "America/New_York",
+        "arrived": false,
+        "departed": false,
+        "scheduled": {
+          "arrival": "2026-04-18T14:27:00-04:00",
+          "departure": "2026-04-18T14:29:00-04:00",
+          "comment": "",
+          "pretty_comment": "",
+          "status": 0
+        },
+        "estimated": {
+          "arrival": "2026-04-18T14:31:00-04:00",
+          "departure": "2026-04-18T14:33:00-04:00",
+          "arrival_comment": "04 MI LATE",
+          "departure_comment": "04 MI LATE",
+          "pretty_arrival_comment": "00:04 late",
+          "pretty_departure_comment": "00:04 late",
+          "status": -2
+        },
+        "actual": {
+          "arrival": null,
+          "departure": null,
+          "comment": null,
+          "pretty_comment": "",
+          "status": 0
+        }
+      },
+      "PHL": {
+        "code": "PHL",
+        "tz": "America/New_York",
+        "arrived": false,
+        "departed": false,
+        "scheduled": {
+          "arrival": "2026-04-18T15:00:00-04:00",
+          "departure": "2026-04-18T15:24:00-04:00",
+          "comment": "",
+          "pretty_comment": "",
+          "status": 0
+        },
+        "estimated": {
+          "arrival": "2026-04-18T14:58:00-04:00",
+          "departure": "2026-04-18T15:24:00-04:00",
+          "arrival_comment": "02 MI EARLY",
+          "departure_comment": "ON TIME",
+          "pretty_arrival_comment": "00:02 early",
+          "pretty_departure_comment": "",
+          "status": 1
+        },
+        "actual": {
+          "arrival": null,
+          "departure": null,
+          "comment": null,
+          "pretty_comment": "",
+          "status": 0
+        }
+      },
+      "TRE": {
+        "code": "TRE",
+        "tz": "America/New_York",
+        "arrived": false,
+        "departed": false,
+        "scheduled": {
+          "arrival": "2026-04-18T15:54:00-04:00",
+          "departure": "2026-04-18T15:56:00-04:00",
+          "comment": "",
+          "pretty_comment": "",
+          "status": 0
+        },
+        "estimated": {
+          "arrival": "2026-04-18T15:54:00-04:00",
+          "departure": "2026-04-18T15:56:00-04:00",
+          "arrival_comment": "ON TIME",
+          "departure_comment": "ON TIME",
+          "pretty_arrival_comment": "",
+          "pretty_departure_comment": "",
+          "status": 0
+        },
+        "actual": {
+          "arrival": null,
+          "departure": null,
+          "comment": null,
+          "pretty_comment": "",
+          "status": 0
+        }
+      },
+      "NWK": {
+        "code": "NWK",
+        "tz": "America/New_York",
+        "arrived": false,
+        "departed": false,
+        "scheduled": {
+          "arrival": "2026-04-18T16:30:00-04:00",
+          "departure": "2026-04-18T16:32:00-04:00",
+          "comment": "",
+          "pretty_comment": "",
+          "status": 0
+        },
+        "estimated": {
+          "arrival": "2026-04-18T16:29:00-04:00",
+          "departure": "2026-04-18T16:30:00-04:00",
+          "arrival_comment": "01 MI EARLY",
+          "departure_comment": "02 MI EARLY",
+          "pretty_arrival_comment": "00:01 early",
+          "pretty_departure_comment": "00:02 early",
+          "status": 2
+        },
+        "actual": {
+          "arrival": null,
+          "departure": null,
+          "comment": null,
+          "pretty_comment": "",
+          "status": 0
+        }
+      },
+      "NYP": {
+        "code": "NYP",
+        "tz": "America/New_York",
+        "arrived": false,
+        "departed": false,
+        "scheduled": {
+          "arrival": "2026-04-18T16:50:00-04:00",
+          "departure": null,
+          "comment": "",
+          "pretty_comment": "",
+          "status": 0
+        },
+        "estimated": {
+          "arrival": "2026-04-18T16:43:00-04:00",
+          "departure": null,
+          "arrival_comment": "07 MI EARLY",
+          "departure_comment": null,
+          "pretty_arrival_comment": "00:07 early",
+          "pretty_departure_comment": "",
+          "status": 1
+        },
+        "actual": {
+          "arrival": null,
+          "departure": null,
+          "comment": null,
+          "pretty_comment": "",
+          "status": 0
+        }
+      }
+    },
+    "terminuses": [
+      "PGH",
+      "NYP"
+    ],
+    "scheduled_departure": "2026-04-18T07:30:00-04:00",
+    "last_fetched": "2026-04-18T14:01:02-04:00",
+    "state": "Active",
+    "stations_snapshot": {
+      "PGH": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-79.9923103162687, 40.4447459702192]
+        },
+        "station_name": "Pittsburgh, PA"
+      },
+      "GNB": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-79.5468961681743, 40.3049939625192]
+        },
+        "station_name": "Greensburg, PA"
+      },
+      "LAB": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-79.3850861189021, 40.317412971731]
+        },
+        "station_name": "Latrobe, PA"
+      },
+      "JST": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.9219989759147, 40.3296969934498]
+        },
+        "station_name": "Johnstown, PA"
+      },
+      "ALT": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.4016228267059, 40.5144830504703]
+        },
+        "station_name": "Altoona, PA"
+      },
+      "TYR": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.2404727871035, 40.6677130864961]
+        },
+        "station_name": "Tyrone, PA"
+      },
+      "HGD": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.0117827025955, 40.4836730604191]
+        },
+        "station_name": "Huntingdon, PA"
+      },
+      "LEW": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-77.5800495744062, 40.5883170979674]
+        },
+        "station_name": "Lewistown, PA"
+      },
+      "HAR": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-76.8782583318008, 40.2620580622386]
+        },
+        "station_name": "Harrisburg, PA"
+      },
+      "ELT": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-76.6122362405675, 40.1470360499455]
+        },
+        "station_name": "Elizabethtown, PA"
+      },
+      "LNC": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-76.3077161386934, 40.0541890432416]
+        },
+        "station_name": "Lancaster, PA"
+      },
+      "EXT": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-75.6217149199969, 40.0192990618477]
+        },
+        "station_name": "Exton, PA"
+      },
+      "PAO": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-75.4837618778237, 40.0427620715371]
+        },
+        "station_name": "Paoli, PA"
+      },
+      "PHL": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-75.1810427766687, 39.9556230652443]
+        },
+        "station_name": "Philadelphia, PA"
+      },
+      "TRE": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-74.7544416573282, 40.2190191327215]
+        },
+        "station_name": "Trenton, NJ"
+      },
+      "NWK": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-74.1647515006558, 40.7347142551013]
+        },
+        "station_name": "Newark, NJ"
+      },
+      "NYP": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-73.9963284477308, 40.7510462642303]
+        },
+        "station_name": "New York, NY"
+      }
+    },
+    "db_updated_at": "2026-04-18T18:01:02.422006"
+  }
+]
